@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+body{
+    margin: 0;
+	background-color:#c2bfb9;
+ 
+}
+
+
+
+
+	
+   ul.menu li{ 
+      display: inline-block;/*Permet de mettre en ligne les mots qui constituent le menu*/
+    }
+
+    ul.menu li a{ /*sélecteur descendant: on séléctionne la balise <a> dans <li> qui lui est dans <ul>*/
+      display: block;/*Permet de remplir tout l'espace <li>*/
+      padding: 10px 96.9px;/* ce sont les marges entre chaques mots du menu*/
+      text-decoration: none;/*supprime les décoration de bases <li>*/
+      color:#9C4A1A;
+      font-weight: bold;
+	  font-size: 13px; 
+    }
+
+  	ul.menu li a:hover{ /* élément interactif pour l'utilisateur c'est une sorte de "pointeur"*/
+      background-color: whitesmoke; /*Créer des petits rectangles autour des mots*/
+    }
+
+	ul.menu{ /* pour centrer le menu */
+      list-style-type: none;
+      margin: 0;/* centre */
+      padding: 0; /* définit les différents écarts de remplissage sur les quatre côtés d'un élément*/
+      text-align: center;
+	  font-family: 'Merriweather', serif;/* tographie importée */
+    }
+
+
+h1{ /* titre */
+    font-family: 'Roboto', sans-serif;
+	text-align: center ;
+ 	font-size:100px ;
+	color:#2B2B2B; 
+	margin-top: auto; 
+	
+
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+ 	font-size:20px ;
+	color:#2B2B2B; 
+	margin: 0px 130px;
+	
+	
+	
+}
+
+
+h6{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+ 	font-size:20px ;
+	color:#2B2B2B; 
+	margin: 0px 130px;
+	
+	
+	
+	
+}
+
+
+h3{
+	font-family: 'Merriweather', serif;
+ 	font-size:20px ;
+	color:#9C4A1A; 
+	margin: 0px 280px;
+ 	margin-top: -80px;
+	
+}
+
+
+P{/* texte */
+	margin: 20px 130px;
+	display:flex;
+    color:#2B2B2B;
+    font-family: 'Merriweather', serif;
+	font-size: 13px;
+
+ 
+	
+}
+
+
+.captain{
+    display: flex;
+    justify-content: center;
+	margin-top: -23px;
+	
+	
+}
+.captain img{
+    width: 50%;
+    height: 50%;
+	
+    
+	
+}
+
+
+.carre{/* taille de la zone de texte */
+    width: 600px;
+    height: 140px;
+	text-align: left; 
+	
+  
+}
+
+
+.oki{
+    display: flex;
+    justify-content: center; 
+    gap: 0.1px;  /* espace entre deux éléments */
+	background-color: whitesmoke;
+	
+	
+	
+	 
+    
+	
+	}
+
+.section{
+    width: 100%;/* largeur */
+    background-color: whitesmoke;
+    padding: 10px 0;
+}
+
+.oki img{
+    width: 330px;
+    height: 220px; /* hauteur identique pour toutes */
+	object-fit: cover;/* remplit sans déformer */
+    background-color: whitesmoke;
+    padding: 5px;
+	
+}
+
+
+.rectangle{
+    width: 1264.5px;
+    height: 30px;
+    
+}
+
+.rectan{
+    width: 1264.5px;
+    height: 30px;
+	background-color: whitesmoke; /* couleur de fond  */
+    
+}
+
+
+.article{
+	margin: 20px 100px;
+	max-width: 1100px;/* définit la taille max */
+	text-align: justify;
+	overflow-wrap: break-word;/*navigateur doit insérer des sauts de ligne empêche le texte de déborder de sa zone de ligne */
+	
+}
+h7{
+	margin: 20px 130px;
+    color:#9C4A1A;/* couleur de la typo*/
+    font-family: 'Merriweather', serif;
+	font-size: 10px; /* définit la taille de la policex */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

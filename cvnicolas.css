@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	width: 80%; 
+	margin: 0 auto;/* pour centrer la page au milieu */
+	margin-top: 10px; /* pour laisser une petite marge au dessus de Guichard nicolas */
+	background-color: whitesmoke; 
+	
+}
+
+.groupe{
+	display: flex; 
+	
+	
+}
+h1{
+	font-family: 'Roboto', sans-serif;/*typographie importée*/
+	text-align: left;/*aligner texte à gauche*/
+ 	font-size:42.5px ;/*taille police*/
+	color:#9C4A1A; 
+	margin: 0px 20px;
+}
+.groupe h2{ /*précise la div h2 dans la class groupe*/
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 20px; 
+	margin-top: 15px;/*marge entre h1 et h2/texte */
+	font-size: 20px; 
+	color:#2B2B2B; 
+}
+	
+.groupe p{
+	font-family: 'Merriweather', serif;
+	margin-top: 20px; 
+	font-size: 15px;
+	color:#9C4A1A; 
+	
+ 
+	
+}
+
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 20px; 
+	margin-top: 50px;
+	font-size:20px; 
+	color:#2B2B2B; 
+}
+
+.article{
+	margin: 20px 92px;
+	max-width: 1100px; /*largeur maximale de l' élément */
+	text-align: justify;  /*justifier le texte */
+	overflow-wrap: break-word; /*navigateur doit insérer des sauts de ligne empêche le texte de déborder de sa zone de ligne*/
+	font-family: 'Merriweather', serif; 
+	font-size: 15px;
+	color:#2B2B2B; 
+	
+}
+h3{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 20px; 
+	margin-top: 50px;
+	font-size:20px; 
+	color:#9C4A1A; 
+}
+
+
+
+.gp{/* avec la div gp je place les deux zones de textes côte à côte */
+	display: flex;/* pour aligner les éléments sur une ligne*/
+    gap: 40px;/* espace entre les deux carrés */
+    margin: 20px 80px;
+}
+
+
+.carre{
+	margin: 20px 80px; 
+    width: 500px;/*largeur de la zone de texte */
+    height: 140px;/*hauteur de la zone de texte */
+	
+	overflow-wrap: break-word;
+	font-family: 'Merriweather', serif; 
+	font-size: 15px;
+	color:#2B2B2B; 
+	
+	
+	
+	
+  
+}
+
+h4{
+	font-family: 'Roboto', sans-serif; 
+	font-size:20px; 
+	color:#9C4A1A; 
+}
+hr{
+	width:140px; 
+	background-color: #9C4A1A; 
+	height: 1px;
+	margin: 0px 20px; 
+}
+
+
+.rectangle{
+    width: 1000;
+    height: 30px;
+    
+}
+h5 a{
+	
+	color:#9C4A1A; 
+	font-size: 13px; 
+	text-decoration: none; /*supprimer la ligne en dessous du lien cliquable*/
+	font-family: 'Merriweather', serif; /*choisir typo*/
+	}

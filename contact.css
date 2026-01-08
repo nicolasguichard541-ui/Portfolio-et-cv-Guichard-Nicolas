@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*J'ai créé un deuxième css pour utiliser deux body et h différents*/
+
+
+
+
+body{
+	background-color: #c2bfb9; /*hexadecimal code*/
+	margin: 0px; /*pas de marge colle éléments niveau du body*/
+	padding: 0px;  /*plus de marge à l'intérieur du body*/
+	position: absolute; /*centrer éléments au milieu de la page*/
+	top: 50%; /*positionne à 50% du bord haut de la page*/
+	left: 50%; /*positionne à 50% du bord gauche de la page*/
+	transform: translate(-50%, -50%); /*pour centrer les éléments au milieu du formulaire*/
+	font-family: 'Merriweather', serif; /*choisir typo*/
+	color: #2B2B2B; 
+}
+
+form{
+	background-color: whitesmoke; 
+	padding: 30px; /*marge intérieur*/
+	border-radius: 10px; /*arrondir les bords */
+	
+	
+}
+form h1{
+	font-weight: bold; /*graisse du texte*/
+	color:#9C4A1A; 
+	font-size: 30px; 
+}
+/*le point sert à spécifier une div espace super important :( */
+form .ligne{
+	width: 100%; /*largeur*/
+	height: 1px; /*hauteur*/
+	background-color: #9C4A1A; 
+	
+	
+}
+form .corpsformulaire{
+	display: flex; /*aligne et adapte contenu suivant la taille de l'écran */
+	flex-wrap: wrap; /*lorsque les éléments ne peuvent plus s'aligner passe en dessous*/
+	margin-bottom: 30px; /*marge en dessous*/
+}
+form .corpsformulaire .groupe{
+	margin-top: 20px; /*marge au dessus de chaque groupe*/
+	display: flex;
+	flex-direction:column; /*pour aligner proprement les éléments */
+}
+form .corpsformulaire .gauche .groupe input{
+	margin-top: 5px; /*marge au dessus de chaque input*/
+	padding: 10px 5px 10px 30px; /*marge dans l'input espace entre typo et bords*/
+	border: 1px solid #9C4A1A;  /*bord de l'input esthetique et épaisseur*/
+	outline: none;  /*supprime la bordure moche autour*/
+	border-radius: 5px; /* arrondir bords*/
+	
+}
+form .corpsformulaire .droite{
+	margin-left: 40px; 
+	margin-top: 34.5px; 
+	
+}
+
+form .corpsformulaire .droite .groupe{
+	height: 100%; /*hauteur corps formulaire*/
+	margin-top: 5px; /*marge au dessus de chaque input*/
+	
+	}
+form .corpsformulaire .droite .groupe textarea{
+	margin-top: 5px; /*marge au dessus de chaque input*/
+	padding: 10px;  /*plus de marge à l'intérieur de la zone texte*/
+	background-color: whitesmoke; 
+	outline: none;  /*supprime la bordure moche autour*/
+	border-radius: 5px; /* arrondir bords*/
+	border: 1px solid #9C4A1A;  /*bord de l'input esthetique et épaisseur*/
+	resize: none; 
+	height: 180px; /* taille de la zone de texte*/
+}
+form .pieds button{
+	font-weight: bold; /*graisse du texte*/
+	color:#9C4A1A; 
+	font-size: 20px; 
+}
+ h3 a{
+	
+	color:#9C4A1A; 
+	font-size: 13px; 
+	text-decoration: none; /*supprimer la ligne en dessous du lien cliquable*/
+	font-family: 'Merriweather', serif; /*choisir typo*/
+	 
+}
+
